@@ -161,8 +161,8 @@ y_pred_probabilities = model.predict(test_images)
 y_pred = np.argmax(y_pred_probabilities, axis=1);
 y_pred
 
-img = Image.open(test_path + '/00002.png')
-print("Original label : ",all_lables[y_test[2]])
-print("Predicted label : ",all_lables[y_pred[2]])
+img = Image.open(test_path + '/00009.png')
+print("Original label : ",all_lables[y_test[9]])
+print("Predicted label : ",all_lables[y_pred[9]])
 img
 
